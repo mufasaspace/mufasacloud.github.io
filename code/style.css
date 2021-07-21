@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'icon-book';
+    src: url('/font/icon-book.eot?2s1plj');
+    src: url('/font/icon-book.eot?2s1plj#iefix') format('embedded-opentype'),
+        url('/font/icon-book.ttf?2s1plj') format('truetype'),
+        url('/font/icon-book.woff?2s1plj') format('woff'),
+        url('/font/icon-book.svg?2s1plj#icon-book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icon-book' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-amazon:before {
+    content: "\31";
+}
+
+.icon-anchor:before {
+    content: "\32";
+}
+
+.icon-apple:before {
+    content: "\33";
+}
+
+.icon-google:before {
+    content: "\34";
+}
+
+.icon-kobo:before {
+    content: "\35";
+}
+
+.icon-soundcloud:before {
+    content: "\36";
+}
+
+.icon-spotify:before {
+    content: "\37";
+}
+
+.icon-ubook:before {
+    content: "\38";
+}
